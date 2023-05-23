@@ -24,7 +24,7 @@ final class NetworkManager {
     private init() { }
     
     private let urlParams = [
-        "results":"\(10)"
+        "results":"\(25)"
     ]
     
     func fetchUsers(_ completion: @escaping(Result<[User], AFError>) -> Void) {
